@@ -37,7 +37,7 @@
 
       <v-main style="height: 100vh" v-model="tab">
         <Customer value="customers" />
-        <Payments value="payments" />
+        <!-- <Payments value="payments" /> -->
       </v-main>
     </v-layout>
   </v-card>
@@ -47,7 +47,7 @@
 </template>
 <script setup>
 import Customer from "@/components/Customers.vue";
-import Payments from "@/components/Customers.vue";
+// import Payments from "@/components/Customers.vue";
 </script>
 <script>
 import router from "@/router";
